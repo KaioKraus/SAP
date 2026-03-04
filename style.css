@@ -7,6 +7,7 @@
 /*Body*/
 body{
     background-color: #dbdbdb;
+    font-family: Helvetica;
 }
 
 /*header*/
@@ -33,6 +34,7 @@ body{
     margin:5px 0 5px 30px;
 }
 
+
 .btn1{
     width: 50px;
     margin: 2px 0 2px 5px;
@@ -54,11 +56,14 @@ th, .td1{
 }
 
 .td1{
-    width: 50px;
+    width: 40px;
 }
 
 .box2{
     display: flex;
+    width: 280px;
+    padding: 10px;
+    background-color: #fff;
 }
 
 .h2{
@@ -73,13 +78,58 @@ th, .td1{
     border-collapse: collapse;
 }
 
+.div1{
+    display: flex;
+    gap: 10px;
+}
+
+.div2{
+    width: 84vw;
+    padding: 10px;
+    margin-top: -72px;
+    background-color: #fff;
+}
+
+.t2{
+    margin-top: 12px;
+    width: 100%;
+    height: 250px;
+}
 
 
+.a{
+    height: 30px;
+}
 
+.ab{
+    background-color: #fff;
+    height: 82vh;
+}
 
+.deco{
+    display: flex;
+    gap: 80px;
+    margin-top: 50px;
+    margin-left: 80px;
+}
 
+tr:hover{
+    background-color: rgb(180, 180, 241);
 
+    .td1{
+        background-color: rgb(80, 80, 209);
+    }
+}
 
+.j{
+    margin: 10px 0;
+}
+
+.j1{
+    border: solid 3px rgb(87, 132, 255);
+    width: 100%;
+    margin:0 -10px;
+}
 
 
 
